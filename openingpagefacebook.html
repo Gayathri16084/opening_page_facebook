@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            border: 1px solid #dddfe2;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            background-color: #3b5998;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            border-radius: 4px 4px 0 0;
+        }
+        .content {
+            padding: 20px;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            border-top: 1px solid #dddfe2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Welcome to Facebook</h1>
+        </div>
+        <div class="content">
+            <p>Connect with friends and the world around you on Facebook.</p>
+            <form action="https://www.facebook.com/login" method="post">
+                <label for="username">Username or Email:</label><br>
+                <input type="text" id="username" name="username"><br><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password"><br><br>
+                <input type="submit" value="Log In">
+            </form>
+            <p><a href="https://www.facebook.com/recover/initiate">Forgot password?</a></p>
+        </div>
+        <div class="footer">
+            <p>Facebook &copy; 2024</p>
+        </div>
+    </div>
+</body>
+</html>
